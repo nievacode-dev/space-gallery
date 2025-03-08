@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<title>Space Gallery [BETA]</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="text.css" type="text/css" media="all" />
+</head>
+<body>
+  <div id="popupAd" class="popup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h2>Welcome!</h2>
+      <p id="popupText"></p>
+      <button style="display: block; margin: auto; width: 80px;" onclick="termsClick()">Read</button>
+    </div>
+  </div>
+  <h1 class="title1">Space Gallery</h1>
+    <p>
+        Latest and archive of my astrophotography gallery.
+    </p>
+    <input type="text" name="search" id="search" value="" placeholder="Search directly by specific words."/><br>
+    <button onclick="srBtn();">Search</button><br>
+    <input type="text" name="newSearch" id="newSearch" placeholder="Search (alphabets only)."/><br>
+    <input type="button" value="Search" onclick="searchText();">
+    <span>
+        <body>
+            <h4 class="text">Latest imagery :</h4>
+            <p></p>
+        </body>
+        <!-- img input -->
+        <img src="fullmoon.jpg" height="300px">
+        <p>
+            The most highest resolution of the moon.<br>
+            without stabilizer.
+        </p>
+        <img src="moonblurred.jpg" height="300px">
+        <p>
+            blurred photo of the moon.<br>
+            without stabilizer.
+        </p>
+        <img src="IMG_20250107_202734_TIMEBURST11.jpg" alt="moon image" height="260px"/>
+        <p>A Moon (timeburst).</p>
+        <img src="IMG_20250301_192325.jpg" alt="Nebula" height="260px">
+        <p>An Orion Nebula.</p>
+        <img src="IMG_20250302_040613_1.jpg" alt="Milky Way Galaxy" height="260px"/>
+        <p>Milky Way Galaxy</p>
+        <!-- description -->
+        <!-- full information -->
+        <div id="changelog">
+          <h2 id="clogheader">Changelogs</h2>
+          <ul>
+            <li>
+              <strong>24 November 2024</strong>
+            <p>This website is created.</p>
+            </li>
+            <li>
+              <strong>December 2024</strong>
+              <p>This website is abandoned.</p>
+            </li>
+            <li>
+              <strong>13 February 2025</strong>
+              <p>Major update in this website, including adding changelog, changelog button, cookie, renewing user interface, adding JavaScript, and more.</p>
+            </li>
+            <li>
+              <strong>16 February 2025</strong>
+              <p>Major update in cookie system, including get cookie, delete cookie, and set cookie in button.</p>
+            </li>
+            <li>
+              <strong>26 February 2028</strong>
+              <p>Added search bar, search directly for specific words, and search unrestricted.</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button onclick="changeName();" class="cookiebtn">Change Name</button><br>
+          <button onclick="checkCookie();" class="cookiebtn">Check Your Data</button><br>
+          <button onclick="deleteUserData();" class="cookiebtn">Delete Your Data</button><br>
+          <button onclick="dataDelete();" class="cookiebtn">Delete Your Data Immediately</button>
+          <p>
+            Submit your feedback here!
+        </p>
+        <input type="text" placeholder="Not Available" onclick="openPopup()">
+        <button type="submit" onclick="openPopup()">Submit</button>
+        <span>
+            <p>
+                <a href="terms.html">Terms and Conditions</a>
+            </p>
+        </span>
+        <p class="reserved">
+            Copyright 2024® Ikhsan. All source listed, All rights reserved.
+        </p>
+       </div>
+        <script src="cookies.js" type="text/javascript" charset="utf-8"></script>
+        <script src="inputtest.js" type="text/javascript" charset="utf-8"></script>
+        <script src="inputnew.js" type="text/javascript" charset="utf-8"></script>
+        <script src="popup.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

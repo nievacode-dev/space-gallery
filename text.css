@@ -1,0 +1,122 @@
+.reserved{
+    color: cyan;
+    text-align: center;
+}
+.title1{
+    text-align: center;
+    font-family: 'Aileron-Heavy';
+    font-size: 115px;
+    background-image: linear-gradient(black, gray, white);
+    color: transparent;
+    background-clip: text;
+}
+body{
+    background-image: url(jwstdeepfield.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    margin: auto;
+    font-family: Aileron-Light;
+}
+.text{
+    color: white;
+}
+marquee{
+    color: white;
+}
+li{
+    color: white;
+}
+.title2{
+    color: yellow;
+}
+.important{
+    color: green;
+}
+.email{
+    color: cyan;
+}
+@font-face{
+    font-family: Aileron-Heavy;
+    src: url(Aileron-Heavy.otf) format("truetype");
+    font-family: Aileron-SemiBold;
+    src: url(Aileron-SemiBold.otf) format("truetype");
+    font-family: Aileron-Light;
+    src: url(Aileron-Light.otf) format("truetype");
+    font-family: Nasa;
+    src: url(Nasa.ttf) format("truetype");
+}
+h1 {
+    background-image: linear-gradient(#212121, gray, white);
+    color: transparent;
+    background-clip: text;
+    font-family: Aileron-Light;
+    font-size: 15px;
+}
+input{
+    font-size: 20px;
+    font-family: Aileron-Light;
+}
+.clog {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 2px;
+  font-size: 17px;
+  color: black;
+}
+.cookiebtn {
+  height: 40px;
+  width: 80px;
+  margin-top: 20px;
+}
+#search, #newSearch {
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: Aileron-Light;
+  min-width: 20ch;
+}
+button {
+  height: 30px;
+  margin-bottom: 20px;
+  font-family: Aileron-Light;
+}
+.black-bg {
+  background-color: black;
+}
+p {
+  color: white;
+  font-family: Aileron-Light;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+.popup-content {
+  position: relative;
+  margin: auto;
+  top: 20%;
+  width: 50%;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  color: #000;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+#popupText {
+  color: black;
+}
