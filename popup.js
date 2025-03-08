@@ -5,4 +5,3 @@ function openPopup() {
 function closePopup() {
   popUp.style.display = 'none';
 }
-window.onload = setTimeout(openPopup, 1000);
