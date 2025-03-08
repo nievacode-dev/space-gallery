@@ -65,3 +65,4 @@ function dataDelete() {
   setCookie("username", null, null);
   alert("Your data has been deleted immediately.");
 }
+window.onload = checkCookie();
