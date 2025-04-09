@@ -1,5 +1,10 @@
-#Space Gallery
+# Space Gallery
 
 Abandoned project.
 You can customize it.
 This is my first project in Web Developer.
+
+## Status
+
+- Discontinued
+- Open Source
